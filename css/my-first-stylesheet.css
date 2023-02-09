@@ -5,6 +5,7 @@ main ul {
     font-family: "sans-serif";
     font-weight: bold;
     padding: 16px;
+    
 }
  p {
     color: #FF0000;
@@ -14,6 +15,7 @@ main ul {
 nav ul li {
     display: inline;
     border-right: 2px solid #642e2e;
+
 }
 .green {
     color: #1cf100;
@@ -21,7 +23,7 @@ nav ul li {
 }
 
 a:visited {
-    color: #FF0000;
+    color: #00ff55;
 }
 h1 {
     padding: 16px;
@@ -29,4 +31,12 @@ h1 {
 }
 body {
     background: #95bb63 url("../images/wall.jpg");
+}
+main {
+    width: 900px;
+    float: left
+}
+aside {
+    width: 500px; 
+    float: right 
 }
